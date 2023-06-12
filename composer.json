@@ -1,0 +1,23 @@
+{
+    "name": "carlos/library",
+    "description": "Online Library Project.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "./",
+            "Controllers\\":"./Controllers",
+            "Models\\":"./Models",
+            "Lib\\":"./Lib",
+            "Utils\\":"./Utils"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlitos2910",
+            "email": "carloslobu6@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
